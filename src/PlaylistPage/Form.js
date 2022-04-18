@@ -51,7 +51,7 @@ class FormPlaylist extends React.Component {
             <textarea />
             <br />
             <br />
-            <div
+            {/* <div
               className="clickbuttonform"
               onClick={() => {
                 this.tekanSubmit();
@@ -62,9 +62,16 @@ class FormPlaylist extends React.Component {
                 type="submit"
                 value="Add Playlist"
               />
-            </div>
+            </div> */}
+            <button
+              className="clickButtonForm"
+              onClick={() => {this.tekanSubmit();
+              }}
+              type = 'submit'>
+              Add Playlist
+            </button>
           </form>
-          {popUp}
+          {popUp} 
         </div>
       </div>
     );
