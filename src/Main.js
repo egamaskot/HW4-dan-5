@@ -1,15 +1,15 @@
-import react from "react";
+// import react from "react";
 
-function Main (){
-    return (
-        <div>
-            <h1>
-                aaaaaaaaaa
-            </h1>
+// function Main (){
+//     return (
+//         <div>
+//             <h1>
+//                 aaaaaaaaaa
+//             </h1>
 
-        </div>
+//         </div>
 
-    );
-}
+//     );
+// }
 
-export default Main;
+// export default Main;

@@ -3,6 +3,23 @@
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #272727;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background: #424242;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
+
 html,
 body,
 div,
